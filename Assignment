@@ -1,0 +1,12 @@
+firstName="Nandase"
+lastName="Judith"
+school="AkiraChix"
+country="Uganda"
+fees=400000
+payment=300000
+yearOfBirth=1999
+currentYear=2021
+print(f"Hello {firstName} {lastName},welcome to {school.upper()} from {country.upper()}.\nYour fees balance is {fees-payment} and you are {currentYear-yearOfBirth} years old.")
+Hello Nandase Judith,welcome to AKIRACHIX from UGANDA.
+Your fees balance is 100000 and you are 22 years old.
+

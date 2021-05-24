@@ -1,0 +1,35 @@
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def addition (*args):
+...     solution = 0
+...     for sum in args:
+...             solution += sum
+...     return solution
+... 
+>>> print(addition(2,4,6))
+12
+>>> print(addition(10,20,30))
+60
+>>> 
+>>> 
+>>> def greet(**kwargs):
+...     print(kwargs)
+... 
+>>> greet(name="Agnes",age=19)
+{'name': 'Agnes', 'age': 19}
+>>> greet(name="Patience",age=17)
+{'name': 'Patience', 'age': 17}
+>>> 
+>>> 
+>>> def combine(*args, **kwargs):
+...     print(args)
+...     print(kwargs)
+... 
+>>> combine(30,20,50, name= "Jannet")
+(30, 20, 50)
+{'name': 'Jannet'}
+>>> 
+>>> 
+>>> 
+
